@@ -8,15 +8,22 @@ return new class extends Migration
 {
     public function up(): void
     {
-        User::create([
-            'name' => 'Test',
-            'email' => 'test@test.com',
-            'password' => Hash::make('password'),
+        User::insert([
+            [
+                'name' => 'Test1',
+                'email' => 'test1@test.com',
+                'password' => Hash::make('password'),
+            ],
+            [
+                'name' => 'Test2',
+                'email' => 'test2@test.com',
+                'password' => Hash::make('password'),
+            ]
         ]);
     }
 
     public function down(): void
     {
-        User::whereEmail('test@test.com')->delete();
+
     }
 };

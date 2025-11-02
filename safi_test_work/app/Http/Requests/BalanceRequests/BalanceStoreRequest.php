@@ -4,7 +4,7 @@ namespace App\Http\Requests\BalanceRequests;
 
 use Illuminate\Foundation\Http\FormRequest;
 
-class DepositStoreRequest extends FormRequest
+class BalanceStoreRequest extends FormRequest
 {
     public function authorize(): bool
     {
