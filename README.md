@@ -10,6 +10,7 @@
 ---
 
    <img width="484" height="270" alt="image" src="https://github.com/user-attachments/assets/bef363b5-0831-4613-a809-3f556a0c8934" />
+
 ---
 
 ### Написал тест на поплнение баланса. Думаю этого достаточно
